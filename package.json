@@ -3,6 +3,7 @@
     "displayName": "OpenUTAU Highlighter",
     "description": "Language Highlighter for OpenUTAU YAML",
     "version": "0.0.1",
+    "publisher": "LovelyA72",
     "engines": {
         "vscode": "^1.60.0"
     },
