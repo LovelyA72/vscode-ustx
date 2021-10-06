@@ -2,11 +2,14 @@
     "name": "openutau-yaml",
     "displayName": "OpenUTAU Highlighter",
     "description": "Language Highlighter for OpenUTAU YAML",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "LovelyA72",
+    "repository":{ "type": "git", "url": "https://github.com/LovelyA72/vscode-ustx" },
+    "license": "MIT License",
     "engines": {
         "vscode": "^1.60.0"
     },
+    "icon": "images/icon.png",
     "categories": [
         "Programming Languages"
     ],
