@@ -1,0 +1,12 @@
+{
+	"name": "ustx",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "source.yaml"
+		}
+	],
+	"scopeName": "source.ustx"
+}

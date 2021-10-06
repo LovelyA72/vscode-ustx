@@ -1,0 +1,25 @@
+{
+    "name": "openutau-yaml",
+    "displayName": "OpenUTAU Highlighter",
+    "description": "Language Highlighter for OpenUTAU YAML",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ustx",
+            "aliases": ["USTX", "ustx"],
+            "extensions": [".ustx"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ustx",
+            "scopeName": "source.ustx",
+            "path": "./syntaxes/ustx.tmLanguage.json"
+        }]
+    }
+}
